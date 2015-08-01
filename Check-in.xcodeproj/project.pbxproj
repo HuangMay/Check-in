@@ -13,6 +13,7 @@
 		B27007421B6C7A9C00BE43D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B27007411B6C7A9C00BE43D0 /* Images.xcassets */; };
 		B27007451B6C7A9C00BE43D0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B27007431B6C7A9C00BE43D0 /* LaunchScreen.xib */; };
 		B27007511B6C7A9C00BE43D0 /* Check_inTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27007501B6C7A9C00BE43D0 /* Check_inTests.swift */; };
+		B270075B1B6CA26700BE43D0 /* addCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B270075A1B6CA26700BE43D0 /* addCheckInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B270074A1B6C7A9C00BE43D0 /* Check-inTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check-inTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B270074F1B6C7A9C00BE43D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B27007501B6C7A9C00BE43D0 /* Check_inTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Check_inTests.swift; sourceTree = "<group>"; };
+		B270075A1B6CA26700BE43D0 /* addCheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addCheckInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B270073A1B6C7A9C00BE43D0 /* AppDelegate.swift */,
+				B270075A1B6CA26700BE43D0 /* addCheckInViewController.swift */,
 				B270073C1B6C7A9C00BE43D0 /* ViewController.swift */,
 				B270073E1B6C7A9C00BE43D0 /* Main.storyboard */,
 				B27007411B6C7A9C00BE43D0 /* Images.xcassets */,
@@ -214,6 +217,7 @@
 			files = (
 				B270073D1B6C7A9C00BE43D0 /* ViewController.swift in Sources */,
 				B270073B1B6C7A9C00BE43D0 /* AppDelegate.swift in Sources */,
+				B270075B1B6CA26700BE43D0 /* addCheckInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
